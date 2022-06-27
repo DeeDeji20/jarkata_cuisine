@@ -23,8 +23,8 @@ fun MealTab(
 ){
     Card(
        modifier = modifier
-           .width(120.dp)
-           .height(50.dp),
+           .width(150.dp)
+           .height(60.dp),
     shape = RoundedCornerShape(30)
     ) {
         Row(

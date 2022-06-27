@@ -27,8 +27,6 @@ fun PromoCard(
     Card(
         shape = RoundedCornerShape(20),
         modifier = modifier,
-
-//        shape = RoundedCornerShape(30),
         elevation = 20.dp
     ) {
         Row( modifier= Modifier
@@ -44,7 +42,9 @@ fun PromoCard(
            Column(
                modifier = Modifier
                    .fillMaxHeight()
-                   .fillMaxWidth(.5f)
+                   .fillMaxWidth(.5f),
+               verticalArrangement = Arrangement.Center,
+               horizontalAlignment = Alignment.CenterHorizontally
            ) {
                 Text(text = "Get $promoPercentage % promo",
                     color = Color.White,

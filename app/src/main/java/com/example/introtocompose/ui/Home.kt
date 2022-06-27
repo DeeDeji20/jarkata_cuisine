@@ -20,6 +20,7 @@ import androidx.compose.ui.unit.dp
 import com.example.introtocompose.ui.theme.backgroundColor
 import com.example.introtocompose.R
 import com.example.introtocompose.ui.theme.PromoCard
+import com.example.introtocompose.ui.theme.searchBorder
 
 
 @Composable
@@ -51,7 +52,7 @@ fun Home() {
                 .fillMaxWidth()
                 .border(
                     width = 1.dp,
-                    color = Color.Black,
+                    color = searchBorder,
                     shape = RoundedCornerShape(20)
                 ),
             placeholder = { Text(text = "Search here") },
